@@ -5,7 +5,7 @@ const HeaderBox = ({
   user,
 }: HeaderBoxProps) => {
   return (
-    <div className="header-box ">
+    <div className="header-box font-inter">
       <h1 className="header-box-title font-extrabold text-2xl">
         {title}
         {type === "greeting" && (
