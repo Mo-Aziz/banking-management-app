@@ -16,12 +16,14 @@ const Sidebar = ({ user }: SiderbarProps) => {
         >
           <Image
             src="/icons/logo.svg"
-            width={5}
-            height={4}
+            width={70}
+            height={70}
             alt="banker frined logo"
             className=""
           />
-          <h1 className="sidebar-logo">Banking Buddy</h1>
+          <h1 className="sidebar-logo font-ibm-plex-serif font-bold text-black-1">
+            Banking Buddy
+          </h1>
         </Link>
         {/* dyanmic side bar links */}
         {sidebarLinks.map((item) => {
