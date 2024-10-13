@@ -27,6 +27,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
         </Link>
         {/* dyanmic side bar links */}
         {sidebarLinks.map((item) => {
+          // is active function
           const isActive =
             pathname === item.route || pathname.startsWith(`${item.route}/`);
 
@@ -51,8 +52,10 @@ const Sidebar = ({ user }: SiderbarProps) => {
           );
         })}
         {/* user  */}
+        User
       </nav>
       {/* footer */}
+      User footer
     </section>
   );
 };

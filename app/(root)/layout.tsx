@@ -7,7 +7,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const loggedIn = { firstNmae: "Max", lastName: "Aref" };
+  const loggedIn = { firstNaMe: "Max", lastName: "Aref" };
   return (
     <main className="flex h-screen w-full font-inter">
       <Sidebar user={loggedIn} />
