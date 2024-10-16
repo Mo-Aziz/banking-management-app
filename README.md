@@ -53,12 +53,14 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Plaid
 - Dwolla
 - React Hook Form
-- Zod
+- Zod for form validation
 - TailwindCSS
 - Chart.js
 - ShadCN
 
 #### REACT COUNTUP PACKAGE
+
+server actions and mutation
 
 ## <a name="features">🔋 Features</a>
 
